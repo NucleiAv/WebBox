@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "WEBBOX",
+    "version": "0.0.1",
+    "description": "Analyze what user data a website collects and check if your email/password is compromised.",
+    "permissions": ["activeTab", "cookies", "storage", "notifications", "scripting"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png",
+      "800": "icons/icon.png"
+    }
+  }
+  

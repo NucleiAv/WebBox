@@ -1,0 +1,52 @@
+#container {
+width: 300px;
+padding: 10px;
+background-color: black;
+color: gray;
+}
+
+h2 {
+font-size: 20px;
+text-align: center;
+}
+
+form {
+display: flex;
+flex-direction: column;
+}
+
+label {
+margin-top: 10px;
+}
+
+input {
+padding: 5px;
+margin-top: 5px;
+}
+
+button {
+margin-top: 15px;
+padding: 10px;
+background-color: #4CAF50;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+button:hover {
+background-color: #45a049;
+}
+
+#result {
+margin-top: 20px;
+padding: 10px;
+border-top: 1px solid #ccc;
+}
+.center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+  

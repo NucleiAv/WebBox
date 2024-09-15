@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEBBOX</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <img src="icons/icon.png" alt="DataGuard" class="center" style="height: 128px; width: 128px;">
+
+    <div>
+      <label for="emailInput">Enter your email:</label>
+      <input type="email" id="emailInput" placeholder="your-email@example.com">
+    </div>
+    <div>
+      <label for="websiteInput">Enter website URL:</label>
+      <input type="text" id="websiteInput" placeholder="https://example.com">
+    </div>
+    
+    <button id="checkButton">Check Data</button>
+  
+    <!-- New toggle buttons -->
+    <button id="toggleWebsiteData">Toggle Website Data Usage</button>
+    <button id="toggleDesignMode">Toggle Design Mode</button>
+    <button id="toggleCSSInspector">Toggle CSS Mode</button>
+    
+    <div class="results">
+      <div class="section-title">HaveIBeenPwned Results:</div>
+      <pre id="hibpResults"></pre>
+      
+      <div class="section-title">Website Data Usage:</div>
+      <pre id="websiteDataUsage"></pre>
+  
+      <div class="section-title">Selected Element CSS:</div>
+      <pre id="cssInspectorResults"></pre>
+    </div>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
